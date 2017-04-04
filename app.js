@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
   };
 
   JSON.stringify(data);
-  res.send(req.headers);
+  res.send(data);
 });
 
 app.listen(3000, function () {
